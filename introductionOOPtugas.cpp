@@ -24,5 +24,14 @@ int main (){
     elektronik.tanggalProduksi = "05-02-2022";
 
     elektronik.Spesifikasi();
+
+    Barang nonElektronik;
+    nonElektronik.nama = "Meja";
+    nonElektronik.jumlah = 2;
+    nonElektronik.kategori = "NON Elektronik";
+    nonElektronik.tanggalProduksi = "05-02-2022";
+
+    nonElektronik.Spesifikasi();
+
  
 }
