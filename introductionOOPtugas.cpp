@@ -15,3 +15,14 @@ public :
         cout << "TANGGAL PRODUKSI : " << tanggalProduksi <<endl;
     }
 };
+
+int main (){
+    Barang elektronik;
+    elektronik.nama = "Kulkas";
+    elektronik.jumlah = 3;
+    elektronik.kategori = "Elektronik";
+    elektronik.tanggalProduksi = "05-02-2022";
+
+    elektronik.Spesifikasi();
+ 
+}
