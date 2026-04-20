@@ -8,4 +8,10 @@ public :
     string kategori;
     string tanggalProduksi;
 
+    void Spesifikasi(){
+        cout << "NAMA : " << nama <<endl;
+        cout << "JUMLAH : " << jumlah <<endl;
+        cout << "KATEGORI : " << kategori << endl;
+        cout << "TANGGAL PRODUKSI : " << tanggalProduksi <<endl;
+    }
 };
